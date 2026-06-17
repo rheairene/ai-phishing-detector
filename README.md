@@ -15,13 +15,6 @@ Most public phishing datasets don't include this category at all. This project a
 - Adding a custom hand-curated dataset of AI-generated phishing samples
 - Building a live tool anyone can use to check suspicious emails
 
----
-
-## Live Demo
-
-Built with Streamlit. Paste any email → get an instant classification with confidence scores.
-
-![Confusion Matrix](confusion_matrix.png)
 
 ---
 
@@ -64,7 +57,8 @@ ai-phishing-detector/
 ├── vectorizer.pkl                # TF-IDF vectorizer
 ├── label_encoder.pkl             # Label encoder
 ├── phishing_dataset_combined.csv # Final dataset (base + AI phishing)
-├── confusion_matrix.png          # Model evaluation visualization
+├── requirements.txt
+├── runtime.txt    
 └── README.md
 ```
 
