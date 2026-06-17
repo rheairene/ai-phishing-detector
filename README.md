@@ -56,7 +56,6 @@ ai-phishing-detector/
 ├── phishing_model.pkl            # Trained model
 ├── vectorizer.pkl                # TF-IDF vectorizer
 ├── label_encoder.pkl             # Label encoder
-├── phishing_dataset_combined.csv # Final dataset (base + AI phishing)
 ├── requirements.txt
 ├── runtime.txt    
 └── README.md
